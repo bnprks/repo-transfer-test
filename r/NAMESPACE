@@ -2,4 +2,5 @@
 
 export(add)
 export(add_with_cpp)
+export(sub)
 useDynLib(repo.test, .registration = TRUE)

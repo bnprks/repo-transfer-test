@@ -12,6 +12,14 @@ add <- function(x, y) {
     x + y
 }
 
+#' Subtract numbers
+#' @param x number 1
+#' @param y number 2
+#' @export
+sub <- function(x, y) {
+    x - y
+}
+
 #' Add with C++
 #' @details
 #' This calls Rcpp, but the work is so little it probably won't save time
