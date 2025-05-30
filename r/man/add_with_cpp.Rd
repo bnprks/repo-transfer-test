@@ -9,3 +9,6 @@ add_with_cpp(x, y)
 \description{
 Add with C++
 }
+\details{
+This calls Rcpp, but the work is so little it probably won't save time
+}
