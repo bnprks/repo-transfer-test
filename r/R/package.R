@@ -1,6 +1,7 @@
 ## usethis namespace: start
 #' @useDynLib repo.test, .registration = TRUE
 ## usethis namespace: end
+#' @importFrom Rcpp sourceCpp
 NULL
 
 #' Add two numbers
