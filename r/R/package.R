@@ -13,6 +13,8 @@ add <- function(x, y) {
 }
 
 #' Add with C++
+#' @details
+#' This calls Rcpp, but the work is so little it probably won't save time
 #' @export
 add_with_cpp <- function(x,  y) {
     add_cpp(x, y)
